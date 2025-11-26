@@ -16,7 +16,7 @@ const Hero =() => {
                                 <h2>TheDevDesigner</h2>
                             </div>
                             <div className="tp-hero-sub">
-                                <p>Debargha Bandyopadhyay -Designer and Developer</p>
+                                <p>Debargha Bandyopadhyay - Designer and Developer</p>
                             </div>
                             <div className="btns">
                                 <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95} className="theme-btn">Contact Me</Link>
@@ -35,6 +35,7 @@ const Hero =() => {
                     <li><NavLink href="https://www.linkedin.com/in/debarghabandyopadhyayofficial/" target="blank">LinkedIn</NavLink></li>
                     <li><NavLink href="https://www.behance.net/debarghaofficial/" target="blank">Behance</NavLink></li>
                     <li><NavLink href="https://www.instagram.com/spore_nomore/" target="blank">Instagram</NavLink></li>
+                    
                 </ul>
             </div>
             <div className="hero-bg">

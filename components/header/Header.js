@@ -36,18 +36,18 @@ const Header = (props) => {
                                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
-                                        <li><Link activeClass="active" to="home" spy={true} smooth={true} duration={500} offset={-100}>Home</Link></li>
-                                        <li>
+                                        <li className="py-4 px-2 me-2"><Link activeClass="active" to="home" spy={true} smooth={true} duration={500} offset={-100}>Home</Link></li>
+                                        <li className="py-4 px-2 me-2">
                                             <Link activeClass="active" to="about" spy={true} smooth={true} duration={500} offset={-95}>About</Link>
                                         </li>
-                                        <li><Link activeClass="active" to="service" spy={true} smooth={true} duration={500} offset={-95}>Service</Link></li>
-                                        <li>
+                                        <li className="py-4 px-2 me-2"><Link activeClass="active" to="service" spy={true} smooth={true} duration={500} offset={-95}>Service</Link></li>
+                                        <li className="py-4 px-2 me-2">
                                             <Link activeClass="active" to="project" spy={true} smooth={true} duration={500} offset={-95}>Portfolio</Link>
                                         </li>
-                                        <li>
+                                        <li className="py-4 px-2 me-2">
                                             <Link activeClass="active" to="blog" spy={true} smooth={true} duration={500} offset={-95}>Blog</Link>
                                         </li>
-                                        <li>
+                                        <li className="py-4 px-2 me-2">
                                             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95}>Contact</Link>
                                         </li>
                                     </ul>
