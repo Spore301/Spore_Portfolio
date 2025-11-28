@@ -139,7 +139,7 @@
 
 	.right-vec {
 		position: absolute;
-		right: 250px;
+		right: 10px;
 		top: 50%;
 		transform: translateY(-50%);
 		z-index: 1;
@@ -153,7 +153,7 @@
 		}
 
 		@media(max-width:1500px) {
-			right: 50px;
+		
 		}
 
 		@media(max-width:991px) {
@@ -170,14 +170,14 @@
 
 		.right-img {
 			@media(max-width:1500px) {
-				text-align: center;
+			width: 100%;
 			}
 
 			img {
 				filter: grayscale(100%);
 
 				@media(max-width:1500px) {
-					width: 70%;
+					width: 60%;
 				}
 			}
 		}
